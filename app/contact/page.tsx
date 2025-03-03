@@ -373,7 +373,7 @@ export default function ContactPage() {
               rel="noopener noreferrer"
               className="bg-sky-600 hover:bg-sky-700 text-white font-medium py-2 px-6 rounded-lg transition-colors inline-flex items-center"
             >
-              Get Directions <ArrowRight className="ml-2 h-5 w-5" />
+              Get Directions 
             </a>
           </div>
         </div>
@@ -405,9 +405,4 @@ function ContactInfoCard({
     </div>
   )
 }
-
-function ArrowRight({ className = "h-6 w-6" }: { className?: string }) {
-  return (
-    <svg 
-      xmlns="http://www\
 
