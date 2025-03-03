@@ -44,7 +44,7 @@ export default function Home() {
             <div className="md:w-1/2 relative">
               <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/download.jpeg"
+                  src="/LOGO.png"
                   alt="Happy children playing and learning"
                   fill
                   className="object-cover"
