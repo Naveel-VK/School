@@ -2,91 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { Calendar, Clock, ArrowRight } from "lucide-react"
 
-// Mock news data
-const newsItems = [
-  {
-    id: 1,
-    title: "Annual Sports Day - A Spectacular Success",
-    date: "February 15, 2025",
-    excerpt:
-      "Our annual Sports Day was a tremendous success with enthusiastic participation from all age groups. Children showcased their athletic abilities and team spirit.",
-    image: "/placeholder.svg?height=400&width=600",
-    category: "Events",
-  },
-  {
-    id: 2,
-    title: "New STEM Learning Lab Inaugurated",
-    date: "January 28, 2025",
-    excerpt:
-      "We're excited to announce the opening of our new STEM Learning Lab, equipped with age-appropriate materials to foster scientific thinking and exploration.",
-    image: "/placeholder.svg?height=400&width=600",
-    category: "Facilities",
-  },
-  {
-    id: 3,
-    title: "Parent Workshop on Early Literacy",
-    date: "January 15, 2025",
-    excerpt:
-      "Thank you to all parents who attended our workshop on supporting early literacy at home. The session provided practical strategies for fostering a love of reading.",
-    image: "/placeholder.svg?height=400&width=600",
-    category: "Workshops",
-  },
-  {
-    id: 4,
-    title: "Cultural Day Celebrations",
-    date: "December 10, 2024",
-    excerpt:
-      "Our Cultural Day celebration was a vibrant display of diversity, with children learning about different traditions, cuisines, and customs from around the world.",
-    image: "/placeholder.svg?height=400&width=600",
-    category: "Events",
-  },
-  {
-    id: 5,
-    title: "Kindergarten Graduation Ceremony",
-    date: "November 30, 2024",
-    excerpt:
-      "Congratulations to our Kindergarten graduates! The ceremony was a heartwarming celebration of their achievements and readiness for primary school.",
-    image: "/placeholder.svg?height=400&width=600",
-    category: "Events",
-  },
-  {
-    id: 6,
-    title: "New Art Curriculum Launched",
-    date: "November 15, 2024",
-    excerpt:
-      "We've enhanced our art curriculum to include more diverse techniques and materials, allowing children to express their creativity in new and exciting ways.",
-    image: "/placeholder.svg?height=400&width=600",
-    category: "Curriculum",
-  },
-]
 
-// Mock upcoming events
-const upcomingEvents = [
-  {
-    id: 1,
-    title: "Open House Day",
-    date: "March 15, 2025",
-    time: "9:00 AM - 12:00 PM",
-    location: "SKYHIGH Campus",
-    description: "Visit our campus, meet teachers, and learn about our programs.",
-  },
-  {
-    id: 2,
-    title: "Spring Festival",
-    date: "April 10, 2025",
-    time: "10:00 AM - 2:00 PM",
-    location: "School Playground",
-    description: "Join us for a day of fun activities, games, and performances.",
-  },
-  {
-    id: 3,
-    title: "Parent Workshop: Positive Discipline",
-    date: "April 25, 2025",
-    time: "6:00 PM - 7:30 PM",
-    location: "School Auditorium",
-    description: "Learn effective strategies to support your child's behavior development.",
-  },
-]
+
 
 export default function NewsPage() {
   return (
@@ -109,38 +26,7 @@ export default function NewsPage() {
         </div>
       </section>
 
-      {/* Upcoming Events Section */}
-      <section className="py-12 bg-sky-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-sky-800 mb-8">Upcoming Events</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {upcomingEvents.map((event) => (
-              <div key={event.id} className="bg-white rounded-xl p-6 shadow-md">
-                <div className="flex items-center mb-3">
-                  <Calendar className="h-5 w-5 text-sky-600 mr-2" />
-                  <span className="text-sky-600 font-medium">{event.date}</span>
-                </div>
-                <h3 className="text-xl font-bold text-sky-800 mb-2">{event.title}</h3>
-                <div className="flex items-center mb-2 text-gray-600">
-                  <Clock className="h-4 w-4 mr-2" />
-                  <span>{event.time}</span>
-                </div>
-                <p className="text-gray-600 mb-2">
-                  <strong>Location:</strong> {event.location}
-                </p>
-                <p className="text-gray-600 mb-4">{event.description}</p>
-                <Link
-                  href={`/events/${event.id}`}
-                  className="text-sky-600 hover:text-sky-700 font-medium inline-flex items-center"
-                >
-                  Event Details <ArrowRight className="ml-1 h-4 w-4" />
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* News Section */}
       <section className="py-16 bg-white">

@@ -85,7 +85,7 @@ export default function Home() {
             />
             <ProgramCard
               title="Kindergarten"
-              age="5-6 years"
+              age="2-3 years"
               description="Comprehensive program focusing on literacy, numeracy, and creative development."
               icon={<Award className="h-10 w-10 text-sky-500" />}
             />
@@ -124,36 +124,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Upcoming Events Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-4 md:mb-0">Upcoming Events</h2>
-            <Link href="/news" className="text-sky-600 hover:text-sky-700 font-medium inline-flex items-center">
-              View All News & Events <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <EventCard
-              title="Open House Day"
-              date="March 15, 2025"
-              description="Visit our campus, meet teachers, and learn about our programs."
-            />
-            <EventCard
-              title="Spring Festival"
-              date="April 10, 2025"
-              description="Join us for a day of fun activities, games, and performances."
-            />
-            <EventCard
-              title="Parent Workshop"
-              date="April 25, 2025"
-              description="Learn effective strategies to support your child's development at home."
-            />
-          </div>
-        </div>
-      </section>
-
+      
       {/* CTA Section */}
       <section className="py-16 bg-purple-600 text-white">
 
