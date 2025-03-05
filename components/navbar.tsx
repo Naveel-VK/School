@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className="relative w-10 h-10 md:w-12 md:h-12">
               <Sun className="w-full h-full text-sunshine animate-pulse" />
             </div>
-            <span className="font-bubblegum text-xl md:text-2xl text-white">SKYHIGH Preschool</span>
+            <span className="font-bubblegum text-xl md:text-2xl text-white">BIGSTEP Preschool</span>
           </Link>
 
           {/* Mobile menu button */}

@@ -174,7 +174,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-green-800 mb-2">Message Sent Successfully!</h3>
                 <p className="text-green-700 mb-6">
-                  Thank you for reaching out to SKYHIGH Preschool. We'll get back to you as soon as possible.
+                  Thank you for reaching out to BIGSTEP Preschool. We'll get back to you as soon as possible.
                 </p>
                 <button
                   onClick={() => setSubmitSuccess(false)}

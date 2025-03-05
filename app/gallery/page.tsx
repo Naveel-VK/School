@@ -105,7 +105,7 @@ export default function GalleryPage() {
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-sky-800">Our Gallery</h1>
             <p className="text-lg text-gray-600">
-              Glimpses of joyful learning and memorable moments at SKYHIGH Preschool
+              Glimpses of joyful learning and memorable moments at BIGSTEP PRESCHOOL
             </p>
           </div>
         </div>
@@ -184,7 +184,7 @@ export default function GalleryPage() {
           <h2 className="text-3xl font-bold text-sky-800 mb-4">Visit Our School</h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Pictures can only tell part of the story. Schedule a visit to experience the warm, nurturing environment of
-            SKYHIGH Preschool in person.
+            BIGSTEP  Preschool in person.
           </p>
           <a
             href="/contact"

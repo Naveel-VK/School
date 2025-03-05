@@ -89,7 +89,7 @@ export default function AdmissionsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-4">Admission Process</h2>
-            <p className="text-gray-600">Follow these simple steps to enroll your child at SKYHIGH Preschool</p>
+            <p className="text-gray-600">Follow these simple steps to enroll your child at BIGSTEP Preschool</p>
           </div>
 
           <div className="max-w-4xl mx-auto">
