@@ -17,7 +17,7 @@ const bubblegum = Bubblegum_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "SKYHIGH Preschool",
+  title: "HIGH Preschool",
   description: "Where little minds soar to new heights",
     generator: 'v0.dev'
 }

@@ -23,7 +23,7 @@ export default function Home() {
                 Where Little Minds <span className="rainbow-text">Soar</span> to New Heights
               </h1>
               <p className="text-lg md:text-xl mb-6 text-gray-700 max-w-lg">
-                At SKYHIGH Preschool, we create a nurturing environment where children can explore, learn, and grow
+                At Big Step Preschool, we create a nurturing environment where children can explore, learn, and grow
                 their wings.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

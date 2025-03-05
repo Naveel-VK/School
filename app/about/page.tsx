@@ -21,7 +21,7 @@ export default function AboutPage() {
           <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-xl overflow-hidden shadow-xl mb-12">
             <Image
               src="/placeholder.svg?height=500&width=1200"
-              alt="SKYHIGH Preschool building and playground"
+              alt="Bigstep Preschool building and playground"
               fill
               className="object-cover"
               sizes="100vw"
@@ -37,16 +37,12 @@ export default function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                SKYHIGH Preschool was founded in 2010 by a group of passionate educators who believed in creating a
+                BigStep Preschool was founded in 2010 by a group of passionate educators who believed in creating a
                 nurturing environment where children could develop a love for learning from an early age.
               </p>
-              <p className="text-gray-600 mb-4">
-                What started as a small classroom with just 15 students has grown into a thriving community of learners,
-                with state-of-the-art facilities and a comprehensive curriculum that prepares children for future
-                academic success.
-              </p>
+            
               <p className="text-gray-600">
-                Our name "SKYHIGH" represents our commitment to helping children reach their highest potential,
+                Our name "BIGSTEP" represents our commitment to helping children reach their highest potential,
                 encouraging them to dream big and providing them with the foundation to achieve those dreams.
               </p>
             </div>
@@ -229,7 +225,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <TestimonialCard
-              quote="SKYHIGH Preschool has been a second home for our daughter. The teachers are caring, and we've seen tremendous growth in her confidence and skills."
+              quote="BigStep Preschool has been a second home for our daughter. The teachers are caring, and we've seen tremendous growth in her confidence and skills."
               author="Jennifer & Mark Taylor"
               role="Parents of Emma, Kindergarten"
             />
