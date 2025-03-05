@@ -19,9 +19,7 @@ export default function NewsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-sky-800">News & Updates</h1>
-            <p className="text-lg text-gray-600">
-              Stay informed about the latest happenings and upcoming events at SKYHIGH Preschool
-            </p>
+          
           </div>
         </div>
       </section>
